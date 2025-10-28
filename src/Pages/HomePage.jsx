@@ -6,7 +6,7 @@ import about1 from "../assets/about-img1.png";
 import about2 from "../assets/about-img2.jpg";
 import service1 from "../assets/service-img1.webp";
 import service2 from "../assets/service-face-img.jpg";
-import doctor from "../assets/service-doctor-img.png";
+import doctor from "../assets/doctor.png";
 import testimony1 from "../assets/testimony1.jpg";
 import testimony2 from "../assets/testimony2.png";
 import testimony3 from "../assets/testimony3.jpg";
@@ -228,7 +228,7 @@ Our team of dedicated professionals combines advanced medical knowledge with a c
       {/* Best Pediatrics */}
       <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-20 bg-gray-100">
         <div className="relative flex-1 flex justify-center mb-12 md:mb-0">
-          <div className="relative lg:w-[350px] h-[350px] md:w-[300px] md:h-[420px] rounded-2xl rounded-br-[30%] rounded-tl-[30%] shadow-[0_10px_30px_rgba(0,0,0,0.4)] overflow-hidden shadow-lg">
+          <div className="relative lg:w-[350px] h-[350px] md:w-[300px] md:h-[420px] rounded-2xl rounded-br-[30%] rounded-tl-[30%] shadow-[0_20px_40px_rgba(0,0,0,0.4)] overflow-hidden shadow-lg">
             <img
               src={doctor}
               alt="Clinic interior"
@@ -244,10 +244,10 @@ Our team of dedicated professionals combines advanced medical knowledge with a c
                 Best Pediatrics
             </h1>
           <h2 className="lg:text-4xl  md:text-3xl font-bold text-gray-800 mb-4 ">
-           Dr. Olivia Bennett
+           Dr. John Doe
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed mb-6 max-w-lg mx-auto md:mx-0">
-<span className="font-bold"> Dr. Olivia Bennett </span>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.          </p>
+<span className="font-bold"> Dr. John Doe </span>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.          </p>
           <h1 className="text-2xl font-bold text-teal-700">About Skills</h1>
           <hr className="border-t border-gray-300 my-3" />
 
